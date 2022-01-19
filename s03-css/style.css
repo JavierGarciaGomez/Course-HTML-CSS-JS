@@ -23,13 +23,13 @@ body {
 }
 
 .main-header {
-  background-color: #f7f7f7;
+  background-color: #d3d3d3;
   /* padding: 20px;
   padding-left: 40px;
   padding-right: 40px; */
   padding: 20px 40px;
-  margin-bottom: 60px;
-  /* height: 80px; */
+  /* margin-bottom: 60px; */
+  height: 80px;
 }
 
 nav {
@@ -47,7 +47,7 @@ article {
 }
 
 aside {
-  background-color: #f7f7f7;
+  background-color: #37373748;
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
   /* padding-top: 50px;
@@ -178,7 +178,7 @@ nav a:link {
   display: block; */
 
   margin-right: 30px;
-  margin-top: 10px;
+
   display: inline-block;
 }
 
