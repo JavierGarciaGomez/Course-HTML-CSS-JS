@@ -1,0 +1,53 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+article {
+  border: black 5px solid;
+}
+
+h2 {
+  background-color: #acaaaa;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+.text-light-gray {
+  color: #acaaaa;
+}
+
+.to-upper-case {
+  text-transform: uppercase;
+}
+
+.text-bold {
+  font-weight: 900;
+}
+
+#free-shipping {
+  font-size: 12px;
+}
+
+#price {
+  font-size: 22px;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: blue;
+}
+
+li {
+  list-style: square;
+}
+
+button {
+  background-color: black;
+  color: white;
+  border: none;
+  font-size: large;
+}
