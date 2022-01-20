@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flexbox</title>
+    <link rel="stylesheet" href="style.css" />
     <style>
       .el--1 {
         background-color: blueviolet;
@@ -36,10 +37,52 @@
         /* STARTER */
         font-family: sans-serif;
         background-color: #ddd;
-        font-size: 40px;
+        font-size: 20px;
         margin: 40px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 15px;
 
         /* FLEXBOX */
+      }
+
+      .el--1 {
+        align-self: flex-start;
+      }
+
+      .el--2 {
+        align-self: stretch;
+      }
+
+      .el--3 {
+        order: -1;
+      }
+
+      .el--4 {
+        order: 1;
+      }
+
+      .el--5 {
+        flex-grow: 1;
+      }
+
+      .el--6 {
+        flex-grow: 2;
+      }
+
+      .el {
+        /* flex-basis: 100px; 
+        flex-shrink: 0;
+        flex-grow: 1;*/
+
+        flex: 1;
+
+        /* 
+        DEFAULTS
+        flex-grow: 0;
+        flex-shrink: 1;
+        flex-basis: auto; */
       }
     </style>
   </head>
