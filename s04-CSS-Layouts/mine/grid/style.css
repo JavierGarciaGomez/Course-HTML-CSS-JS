@@ -317,7 +317,7 @@ footer {
 } */
 
 /* FLEXBOX */
-
+/* 
 .main-header {
   display: flex;
   justify-content: space-between;
@@ -364,4 +364,50 @@ aside {
 }
 
 .related-item-content {
+} */
+
+/* CSS */
+
+.main-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  gap: 1rem;
+  justify-content: end;
+}
+
+.author-box {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 1rem;
+  justify-content: start;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.author {
+  margin-bottom: 0;
+}
+
+.main-content {
+  display: grid;
+  grid-template-columns: 60% 30%;
+  justify-content: space-between;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.related-item {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 1rem;
+  align-items: center;
+  margin: 1rem auto;
 }
